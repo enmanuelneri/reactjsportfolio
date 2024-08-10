@@ -40,25 +40,25 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Enmanuel Uscuvilca — Portfolio",
+    fullName: "Enmanuel Uscuvilca Loayza",
+    email: "enmanuel.uscuvilca@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Enmanuel Uscuvilca",
+    p: ["I develop software solutions, bots, ", "AI projects, and adapt systems to specific changes."],
   },
   contact: {
-    p: "Get in touch",
+    p: "Get in touch/Ponerse en contacto",
     h2: "Contact.",
     form: {
       name: {
-        span: "Your Name",
+        span: "Your Name/Tu nombre",
         placeholder: "What's your name?",
       },
-      email: { span: "Your Email", placeholder: "What's your email?" },
+      email: { span: "Your Email/Tu correo", placeholder: "What's your email?" },
       message: {
-        span: "Your Message",
+        span: "Your Message/Tu mensaje",
         placeholder: "What do you want to say?",
       },
     },
@@ -67,28 +67,21 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `
+        I master software development and the implementation of innovative technological solutions. I thrive in dynamic environments, always seeking professional growth. My creativity and organization have significantly impacted my projects. With experience across various industries and technologies, I eagerly anticipate new challenges and projects.`,
     },
     experience: {
       p: "What I have done so far",
       h2: "Work Experience.",
     },
     feedbacks: {
-      p: "What others say",
-      h2: "Testimonials.",
+      p: "Education",
+      h2: "Education and Certifications",
     },
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `As an Architecture and Development Analyst, I have accumulated a wide range of technical skills and experience in software development. I have worked on a variety of projects, from the implementation of SMS sending services and the creation of bots for request validation, to the development of billing systems and the adaptation of existing systems to new ERP changes. My experience also includes the analysis and mapping of applications for high and portability processes in a telecommunications company, as well as the preparation of code quality control documents and prototypes for future user stories. I have also worked on Artificial Intelligence projects and developed a chatbot using Learning Language Models (LLM). Throughout my career, I have demonstrated my ability to work with a variety of technologies, including .Net Framework, .Net Core, Python, SQL, JavaScript, and more. My goal is to use my experience and skills to solve complex problems, work effectively with different technologies, and manage projects effectively.`,
     },
   },
 };

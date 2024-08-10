@@ -55,7 +55,7 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "AI Developer",
     icon: mobile,
   },
   {
@@ -63,7 +63,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "RPA Developer",
     icon: creator,
   },
 ];
@@ -125,31 +125,31 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Architecture and Development Analyst",
+    companyName: "DP World",
+    icon: tesla,
+    iconBg: "#E6DEDD",
+    date: "Jun 2023 - Actualidad",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Development and Implementation of the SMS sending service for sending tokens in the appointment generation process. It was developed using .Net Core, React JS, Git for version control, and SQL for audit logging. Unit tests with NUnit, Functional tests using .",
+      "Implementation of Terminal Package functionality in the Billing module, .net core, Javascript, HTML5, CSS were used. Unit tests with NUnit, Functional tests using Selenium.",
+      "Creation of functional tests for the Appointments and Documentation module using Selenium for invoice validations.",
+      "Creation of bots for automatic login in N4 and Sparcs applications. The Selenium library with Python was used for the web application and Pywinauto for the desktop application, as a task scheduler the Task Manager.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Solutions Analyst",
+    companyName: "EY",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "Sept 2022 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Development of the BTA Billing System, which is a maintenance of the hours and the calculation of the charge of hours to the client depending on the cost either by average or Rank of the employees; generation of reports by Rank or by average. It was developed using .Net Core, React JS and as a BD manager Sql Server. Unit tests with NUnit, Functional tests using Selenium.",
+      "Adaptation of the Opportunity Base System to the new ERP change to Profitability. It was developed using .Net Core, React JS, Javascript, HTML5, CSS and as a BD manager Sql Server. Unit tests with NUnit, Functional tests using Selenium and vulnerability analysis with SonarQube.",
+      "Elaboration of the Fixed Assets Validation flow in Integration Services. Sql was used for the storage of the records and Python for the validation of the rules.",
+      
     ],
-  },
+  },  
   {
     title: "Web Developer",
     companyName: "Shopify",
