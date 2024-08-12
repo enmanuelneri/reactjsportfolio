@@ -24,14 +24,18 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  //meta,
+  //starbucks,
+  //tesla,
+  dpworld,
+  //shopify,
+  //carrent,
+  //jobit,
+  //tripguide,
   threejs,
+  ey,
+  nttdata,
+  indra,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -127,7 +131,7 @@ const experiences: TExperience[] = [
   {
     title: "Architecture and Development Analyst",
     companyName: "DP World",
-    icon: tesla,
+    icon: dpworld,
     iconBg: "#E6DEDD",
     date: "Jun 2023 - Actualidad",
     points: [
@@ -140,7 +144,7 @@ const experiences: TExperience[] = [
   {
     title: "Solutions Analyst",
     companyName: "EY",
-    icon: starbucks,
+    icon: ey,
     iconBg: "#383E56",
     date: "Sept 2022 - May 2023",
     points: [
@@ -152,8 +156,8 @@ const experiences: TExperience[] = [
   },  
   {
     title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    companyName: "NTT Data",
+    icon: nttdata,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
     points: [
@@ -165,8 +169,8 @@ const experiences: TExperience[] = [
   },
   {
     title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
+    companyName: "Indra",
+    icon: indra,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
@@ -178,7 +182,7 @@ const experiences: TExperience[] = [
   },
 ];
 
-const testimonials: TTestimonial[] = [
+const testimonials: TTestimonial[] = [/*
   {
     testimonial:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
@@ -202,10 +206,10 @@ const testimonials: TTestimonial[] = [
     designation: "CTO",
     company: "456 Enterprises",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  },*/
 ];
 
-const projects: TProject[] = [
+const projects: TProject[] = [/*
   {
     name: "Car Rent",
     description:
@@ -269,6 +273,7 @@ const projects: TProject[] = [
     image: tripguide,
     sourceCodeLink: "https://github.com/",
   },
-];
+*/];
 
 export { services, technologies, experiences, testimonials, projects };
+//export { services, technologies, experiences };
