@@ -2,6 +2,7 @@
   "name": "threejs-3d-portfolio",
   "private": true,
   "version": "1.0.0",
+  "homepage": "https://enmauscuvilca.github.io/enmanueluscuvilca",
   "type": "module",
   "scripts": {
     "dev": "vite",
