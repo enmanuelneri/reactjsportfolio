@@ -2,14 +2,16 @@
   "name": "threejs-3d-portfolio",
   "private": true,
   "version": "1.0.0",
-  "homepage": "https://enmauscuvilca.github.io/enmanueluscuvilca",
+  "homepage": "https://enma29.github.io/portfolioeul",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "ts:check": "tsc --noEmit"
+    "ts:check": "tsc --noEmit",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
@@ -37,10 +39,11 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.21",
     "prettier": "^3.1.1",
     "tailwindcss": "^3.2.6",
     "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "vite": "^5.4.10"
   }
 }
